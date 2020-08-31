@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    color: green;
+    background-color: #EB8;
+    /* comment */
+    font-size: 20px;
+    font-style: italic;
+    /* ctrl + пробел */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+p {
+    width: 400px;
+    height: 400px;
+    white-space: nowrap;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: #888;
+}
+
+/*что бы выбрать все р внутри div*/
+
+div p {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+}
+
+/*viewport - вместо % или px*/
+
+#qwe {
+    background-color: #23d45e;
+    width: 400px;
+    height: 400px;
+    margin: ;
+    /*margin-top*/
+    padding: ;
+    /*padding-left*/
+}
